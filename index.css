@@ -1,0 +1,45 @@
+body{
+margin:auto;
+background-color:maroon;
+color:white;    
+}
+
+.container{
+display:flex; 
+justify-content:space-around;
+text-align:center;  
+
+}
+
+.home-score{
+ background-color:blue;    
+}
+
+.away-score{
+ background-color:orange;
+ padding-bottom:10px; 
+ padding-top:2px;
+}
+    
+
+button{
+ border-radius:50%;
+ border:none;
+ background-color:greenyellow;  
+ font-size:25px;
+ margin-left:8px;
+ margin-right:8px;
+}
+
+#score-home-el{
+font-size:40px;
+margin:55px;   
+}
+#score-away-el{
+font-size:40px;
+margin:55px;   
+}
+
+
+
+
